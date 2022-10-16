@@ -1,0 +1,23 @@
+@use "./variables" as *;
+
+footer {
+    background-color: white;
+    height: 2rem;
+    line-height: 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 50px;
+    .footerContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+            color: #EA593E;
+            font-weight: bold;
+            &:hover {
+                color: $yellow;
+            }
+        }
+    }
+}

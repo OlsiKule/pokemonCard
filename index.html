@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greg Olsi Pokemon App</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="headerContainer">
+      <h1>Pokemon App</h1>
+      <h4>Created by Greg Crutchlow and Olsi Kule</h4>
+    </div>
+  </header>
+  <main>
+    <div class="cardContainer">
+      <div class="loader">
+        <p>loading...</p>
+      </div>
+      <div class="wrapper hide" id="mainDisplay">
+        <section class="pokemonChoice">
+          <h2>Choose Your Pokemon</h2>
+          <select name="pokemon" id="dropdown"></select>
+        </section>
+        <section class="pokemonCardContainer">
+          <div class="pokemonCard">
+            <!-- pokemon info goes here -->
+          </div>
+        </section>
+      </div>
+    </div> <!-- wrapper ends -->
+  </main>
+  <footer>
+    <div class="wrapper">
+      <div class="footerContainer">
+        <p>Created at <a href="https://junocollege.com">Juno College</a> - Copyright © 2019</p>
+      </div>
+    </div> <!-- wrapper ends -->
+  </footer>
+  <script src="./app.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- css make a class .hide : property either display none or opacity 0 
+in HTML on page laod wrapper div class "wrapper hide"  -->

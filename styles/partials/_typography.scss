@@ -1,0 +1,27 @@
+@use "./variables" as *;
+
+@font-face {
+  font-family: "Pokemon Solid";
+  src: url(../../assets/fonts/pokemon/Pokemon\ Solid.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Pokemon Hollow";
+  src: url(../../assets/fonts/pokemon/Pokemon\ Hollow.ttf);
+  font-weight: normal;
+}
+
+html {
+  font-size: 125%;
+}
+
+
+
+h1, h2 {
+  font-family: "Pokemon Solid";
+  letter-spacing: 2px;
+  color: white;
+  text-shadow: 3px 3px 10px $yellowShadow;
+}
+
